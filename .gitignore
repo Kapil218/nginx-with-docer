@@ -1,0 +1,17 @@
+# --- Node.js backend ---
+/backend/node_modules
+/backend/dist
+/backend/build
+/backend/*.log
+
+# --- Frontend (Vite or Next.js) ---
+/frontend/node_modules
+/frontend/dist       # Vite
+/frontend/.next      # Next.js
+/frontend/out        # Next.js static export
+/frontend/*.log
+
+
+# --- IDEs ---
+.vscode/
+.idea/
