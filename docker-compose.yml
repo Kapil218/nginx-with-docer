@@ -59,6 +59,7 @@ services:
     volumes:
       - pgdata:/var/lib/postgresql/data
 
+
   nginx:
     build: ./nginx
     container_name: nginx
@@ -67,7 +68,9 @@ services:
     depends_on:
       - frontend
       - backend1
-      - backend2    
+      - backend2
+
+   
 
 volumes:
   pgdata:
